@@ -3,22 +3,27 @@ local utils = require("conceal.templates.utils")
 local keywords = {}
 for _, keyword in ipairs({
 	"import",
-	"func",
 	"struct",
-	"const",
-	"var",
+	"nil",
+	"interface",
 	"if",
 	"else",
+	"var",
+	"const",
 	"break",
 	"continue",
 	"return",
-	"for",
-	"interface",
 	"range",
-	"nil",
+	"for",
+	"int",
 	"delete",
 	"append",
 	":=",
+	"func",
+	"mu",
+	"ctx",
+	"context.Context",
+	"panic",
 }) do
 	keywords[keyword] = utils.query_builder(keyword)
 end

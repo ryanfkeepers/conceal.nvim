@@ -41,17 +41,17 @@ return {
 	},
 	["break"] = {
 		enabled = true,
-		conceal = "☇",
+		conceal = "⤵",
 		highlight = "keyword",
 	},
 	["continue"] = {
 		enabled = true,
-		conceal = "☈",
+		conceal = "⤴",
 		highlight = "keyword",
 	},
 	["return"] = {
 		enabled = true,
-		conceal = "⎋",
+		conceal = "Ξ",
 		highlight = "keyword",
 	},
 	["range"] = {
@@ -83,5 +83,30 @@ return {
 		enabled = true,
 		conceal = "⭅",
 		highlight = "keyword.operator",
+	},
+	["func"] = {
+		enabled = true,
+		conceal = "λ",
+		highlight = "keyword.function",
+	},
+	["mu"] = {
+		enabled = true,
+		conceal = "μ",
+		highlight = "keyword",
+	},
+	["ctx"] = {
+		enabled = true,
+		conceal = "γ",
+		highlight = "keyword",
+	},
+	["context.Context"] = {
+		enabled = true,
+		conceal = "Γ",
+		highlight = "keyword",
+	},
+	["panic"] = {
+		enabled = true,
+		conceal = "☣",
+		highlight = "keyword",
 	},
 }

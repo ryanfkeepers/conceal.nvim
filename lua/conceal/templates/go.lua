@@ -22,7 +22,6 @@ for _, keyword in ipairs({
 	"func",
 	"mu",
 	"ctx",
-	"context.Context",
 	"panic",
 }) do
 	keywords[keyword] = utils.query_builder(keyword)

@@ -99,11 +99,6 @@ return {
 		conceal = "γ",
 		highlight = "keyword",
 	},
-	["context.Context"] = {
-		enabled = true,
-		conceal = "Γ",
-		highlight = "keyword",
-	},
 	["panic"] = {
 		enabled = true,
 		conceal = "☣",

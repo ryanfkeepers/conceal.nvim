@@ -62,46 +62,71 @@ return {
 	["for"] = {
 		enabled = true,
 		conceal = "∞",
-		highlight = "repeat",
+		highlight = "keyword",
 	},
 	["int"] = {
 		enabled = true,
 		conceal = "ℤ",
-		highlight = "keyword",
+		highlight = "type",
 	},
 	["delete"] = {
 		enabled = true,
 		conceal = "⌦",
-		highlight = "keyword",
+		highlight = "function",
 	},
 	["append"] = {
 		enabled = true,
 		conceal = "₪",
-		highlight = "keyword",
+		highlight = "function",
 	},
 	[":="] = {
 		enabled = true,
 		conceal = "⭅",
-		highlight = "keyword.operator",
+		highlight = "operator",
 	},
 	["func"] = {
 		enabled = true,
 		conceal = "λ",
-		highlight = "keyword.function",
+		highlight = "keyword",
 	},
 	["mu"] = {
 		enabled = true,
 		conceal = "μ",
-		highlight = "keyword",
+		highlight = "property",
 	},
 	["ctx"] = {
 		enabled = true,
 		conceal = "γ",
-		highlight = "keyword",
+		highlight = "property",
+	},
+	["context.Context"] = {
+		enabled = true,
+		conceal = "Γ",
+		highlight = "type",
 	},
 	["panic"] = {
 		enabled = true,
 		conceal = "☣",
+		highlight = "function",
+	},
+	["fmt"] = {
+		enabled = true,
+		conceal = "〶",
 		highlight = "keyword",
+	},
+	["Sprintf"] = {
+		enabled = true,
+		conceal = "SF",
+		highlight = "function",
+	},
+	["Printf"] = {
+		enabled = true,
+		conceal = "F",
+		highlight = "function",
+	},
+	["Println"] = {
+		enabled = true,
+		conceal = "LN",
+		highlight = "function",
 	},
 }

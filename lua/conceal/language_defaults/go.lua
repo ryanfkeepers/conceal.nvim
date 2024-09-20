@@ -16,7 +16,7 @@ return {
 	},
 	["interface"] = {
 		enabled = true,
-		conceal = "⌘",
+		conceal = "Ξ",
 		highlight = "keyword",
 	},
 	["if"] = {
@@ -51,7 +51,7 @@ return {
 	},
 	["return"] = {
 		enabled = true,
-		conceal = "Ξ",
+		conceal = "⌘〆",
 		highlight = "keyword",
 	},
 	["range"] = {
@@ -128,5 +128,40 @@ return {
 		enabled = true,
 		conceal = "LN",
 		highlight = "function",
+	},
+	["switch"] = {
+		enabled = true,
+		conceal = "∺",
+		highlight = "keyword",
+	},
+	["case"] = {
+		enabled = true,
+		conceal = "∴",
+		highlight = "keyword",
+	},
+	["default"] = {
+		enabled = true,
+		conceal = "∹",
+		highlight = "keyword",
+	},
+	["error"] = {
+		enabled = true,
+		conceal = "☠",
+		highlight = "type",
+	},
+	["type"] = {
+		enabled = true,
+		conceal = "∫",
+		highlight = "keyword",
+	},
+	['""'] = {
+		enabled = true,
+		conceal = "♯",
+		highlight = "keyword",
+	},
+	["string"] = {
+		enabled = true,
+		conceal = "∿",
+		highlight = "type",
 	},
 }

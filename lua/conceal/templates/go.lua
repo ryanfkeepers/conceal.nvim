@@ -28,6 +28,13 @@ for _, keyword in ipairs({
 	"Sprintf",
 	"Printf",
 	"Println",
+	"switch",
+	"case",
+	"default",
+	"error",
+	"type",
+	'""',
+	"string",
 }) do
 	keywords[keyword] = utils.query_builder(keyword)
 end
